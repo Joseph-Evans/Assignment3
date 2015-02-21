@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 3</title>
+    <link rel="stylesheet" type="text/css" href="css/Assignment3.css">
+    <script src="js/Assignment3.js"></script>
+</head>
+
+<body>
+    <div id="input">
+    <h1>Meeting Scheduler</h1>
+    <hr />
+    <label>Please select the initial meeting date in in mm/dd/yyyy form: </label>
+    <input type="text" id="meetingdate">
+    <br />
+    <label>How many meetings do you need?</label>
+    <input type="number" id="numofmeetings">
+    <br />
+    <label>Please insert the time interval between each meeting (i.e. Weekly, Monthly, etc) as number: </label>
+    <input type="number" id="interval">
+    <br />
+    <button onclick="CalculateMeetings()">Calculate Meetings</button>
+    <hr />
+    </div>
+    <div id="tabledisplay">
+    <p id="display">This is where the table will display.</p>
+    </div>
+</body>
+</html>
